@@ -1,0 +1,28 @@
+.custom-tabs {
+    border-bottom: none !important;
+    justify-content: center;
+}
+
+.custom-tabs button {
+    background: rgb(40, 37, 37) !important;
+    color: #fff;
+    padding: 20px 60px;
+    transition: all .3s;
+}
+
+.custom-tabs button:hover {
+    background-color: rgba(0, 0, 0, 0.75)!important;
+    color: #fff;
+}
+
+.custom-tabs .nav-link {
+    border: none !important;
+    border-radius: 0 !important;
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.custom-tabs .nav-item.show .nav-link,
+.custom-tabs .nav-link.active {
+    background: linear-gradient(245.39deg, #fc65ed -35.14%, #0500ff 143.06%) !important;
+    color: #fff !important;
+}
